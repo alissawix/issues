@@ -23,5 +23,11 @@
   "styling": {
     "solution": "scss modules"
   },
-  "svgLoader": "both"
+  "svgLoader": "both",
+  "resolve": {
+    "alias":{
+      "@aa": "src",
+      "@aa/*": "src/*"
+    }
+  }
 }
