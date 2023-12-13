@@ -1,0 +1,5 @@
+:root {
+  --yellow: yellow;
+  --blue: blue;
+  --primary-color: var(--blue);
+}

@@ -10,6 +10,9 @@ export interface NestedProps {
  * To create custom component templates, see https://help.codux.com/kb/en/article/kb16522
  */
 export const Nested = ({ className }: NestedProps) => {
-    return <div className={classNames(styles.root, className)}>
-        <span>text</span></div>;
+    return (
+        <div className={classNames(styles.root, className)}>
+            <span>text</span>
+        </div>
+    );
 };

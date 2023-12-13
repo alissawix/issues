@@ -1,0 +1,10 @@
+@import '../../styles/theme.css';
+
+.root {
+    background-color: var(--yellow);
+    color: var(--primary-color);
+    font-weight: bold;
+    width: 100px;
+    height: 50px;
+    font-size: 32px;
+}
