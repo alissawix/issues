@@ -1,0 +1,13 @@
+.root {
+    color: #b22222;
+}
+
+.topMenu {
+    background-color: yellow;
+}
+
+.item {
+    & a {
+        color: #AF22B2;
+    }
+}
