@@ -23,5 +23,18 @@
   "styling": {
     "solution": "scss modules"
   },
-  "svgLoader": "both"
+  "svgLoader": "both",
+  "resolve": {
+    "alias": {
+      "@comps": "./src/components",
+      "@comps/*": "./src/components/*"
+    }
+  },
+  "formatting": {
+    "formatSettings": {
+      "tabSize": 2,
+      "indentSize": 2,
+      "baseIndentSize": 2
+    }
+  }
 }

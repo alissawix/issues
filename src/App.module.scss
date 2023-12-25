@@ -31,6 +31,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
@@ -44,6 +45,7 @@
 
 .card {
   padding: 2em;
+  background-color: #a6a2a2;
 }
 
 .read-the-docs {
