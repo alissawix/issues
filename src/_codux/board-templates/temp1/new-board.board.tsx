@@ -1,7 +1,7 @@
 import { createBoard, ContentSlot } from '@wixc3/react-board';
 
 export default createBoard({
-    name: 'NewComponent',
+    name: 'NewBoard',
     Board: () => (
         <div>
             AAAAAA
