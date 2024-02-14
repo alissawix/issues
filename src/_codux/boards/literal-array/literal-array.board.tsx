@@ -3,6 +3,6 @@ import { LiteralArray } from '../../../components/literal-array/literal-array';
 
 export default createBoard({
     name: 'LiteralArray',
-    Board: () => <LiteralArray valueEither="" />,
+    Board: () => <LiteralArray />,
     isSnippet: true,
 });
